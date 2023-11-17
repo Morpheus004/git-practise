@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-// import java.util.Collection;
+import java.util.Collection;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -24,8 +24,8 @@ class Tree
             if(N.left!=null)Q.add(N.left);
             
         }
-        // return O;
-        // Collections.reverse(O);
+        return O;
+        Collections.reverse(O);
         return O;
     }
 }
